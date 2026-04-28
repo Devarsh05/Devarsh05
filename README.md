@@ -1,6 +1,6 @@
 # Hi, I'm Devarsh Prajapati 👋
 
-**Computer Science @ York University · Full-Stack & ML Engineer · Toronto, ON**
+**Computer Science @ York University · Full-Stack & AI/ML Engineer · Toronto, ON**
 
 I build scalable systems — from AI automation platforms to real-time data pipelines. Passionate about turning complex problems into clean, impactful software.
 
