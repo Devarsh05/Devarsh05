@@ -2,7 +2,7 @@
 
 **Computer Science @ York University · Full-Stack & AI/ML Engineer · Toronto, ON**
 
-I build scalable systems — from AI automation platforms to real-time data pipelines. Passionate about turning complex problems into clean, impactful software.
+I build scalable systems - from AI automation platforms to real-time data pipelines. Passionate about turning complex problems into clean, impactful software.
 
 ---
 
