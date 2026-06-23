@@ -1,28 +1,25 @@
 # Hi, I'm Devarsh Prajapati 👋
-
 **Computer Science @ York University · Full-Stack & AI/ML Engineer · Toronto, ON**
 
-I build scalable systems - from AI automation platforms to real-time data pipelines. Passionate about turning complex problems into clean, impactful software.
+I build scalable systems — from AI agent platforms to real-time data pipelines. Passionate about turning complex problems into clean, impactful software.
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🤖 [Multi-Agent AI Task Automator](https://github.com/devarsh05)
-> Full-stack AI orchestration platform coordinating intelligent agents for scalable task automation.
+### 🧭 [ContextCode — AI Codebase Onboarding Tool](https://context-code.vercel.app)
+> Understand any codebase in minutes. Paste a GitHub URL and chat with the repo via RAG, with real file/line citations and a dependency-graph visualization.
+- Architected a full-stack **RAG system** indexing GitHub repos via **Tree-sitter AST parsing** (function/class-level chunking) across Python, JS & TS, enabling cited, hallucination-resistant Q&A over codebases up to **10,000 files**
+- Designed a **provider-swappable AI layer** (`Embedder`/`LLMClient` interfaces) — local open-source models in dev, OpenAI in production, via config alone
+- Built a **production cost-control system** — Cloudflare Turnstile + atomic Redis dual rate limiting — powering a public zero-signup demo with bounded API spend
+- Deployed a **5-service backend** (FastAPI, Celery, ChromaDB, PostgreSQL, Redis) on Railway with SSE progress streaming + a **Next.js** frontend on Vercel, covered by **230+ tests**
 
-- Architected platform using **Next.js + FastAPI**, enabling orchestration across Planner, Memory, and Summarizer agents
-- Improved task execution efficiency by **35%** via RESTful agent coordination APIs
-- Deployed on **AWS ECS** with Docker + CI/CD pipelines — reduced deployment time by **50%**
-- Implemented **RAG with vector database** for enhanced contextual memory and response accuracy
-
-`Next.js` `FastAPI` `LangGraph` `Docker` `AWS ECS` `RAG` `Python`
+`FastAPI` `Celery` `RAG` `Tree-sitter` `ChromaDB` `PostgreSQL` `Redis` `Next.js` `TypeScript` `Docker`
 
 ---
 
 ### 📈 [AI Stock Insights Platform](https://github.com/devarsh05)
 > End-to-end ML pipeline for real-time stock analysis with an interactive Streamlit dashboard.
-
 - Engineered data pipeline improving processing efficiency by **40%**
 - Reduced manual data collection effort by **90%** via Yahoo Finance API automation
 - Built interactive **real-time visualization** dashboard for faster, data-driven trading decisions
@@ -31,9 +28,8 @@ I build scalable systems - from AI automation platforms to real-time data pipeli
 
 ---
 
-### 🎬 [RateFlix](https://github.com/devarsh05)
+### 🎬 [RateFlix](https://github.com/Devarsh05/RateFlix.git)
 > Full-stack desktop app for movie discovery with personalized watchlists and real-time TMDB content sync.
-
 - Designed and optimized **MySQL relational schema**, cutting data retrieval latency by **30%**
 - Built full authentication system with personalized watchlists and review management
 - Integrated **TMDB REST API** for dynamic, real-time content updates and enhanced UX
@@ -46,11 +42,20 @@ I build scalable systems - from AI automation platforms to real-time data pipeli
 
 | Category | Technologies |
 |---|---|
-| **Languages** | Python, Java, JavaScript, SQL, R, HTML/CSS |
-| **Frameworks** | React, Next.js, FastAPI, Flask, Node.js, Streamlit |
-| **Cloud & Tools** | AWS (ECS), Docker, Git, CI/CD, Google Cloud, VS Code |
-| **Databases** | MySQL, Vector Databases |
-| **Concepts** | REST APIs, Microservices, RAG, Agile, Full-Stack Dev, ML Inference |
+| **Languages** | Python, Java, JavaScript, TypeScript, SQL, R, HTML/CSS |
+| **Frameworks** | FastAPI, Next.js, React, Flask, Node.js, Celery, Streamlit |
+| **Cloud & Tools** | Docker, Railway, Vercel, Git, CI/CD, Google Cloud, VS Code |
+| **Databases** | PostgreSQL, MySQL, Redis, ChromaDB (Vector DB) |
+| **AI / Concepts** | RAG, LangChain, LangGraph, AI Agents, REST APIs, Microservices, Full-Stack Dev |
+
+---
+
+## 💼 Experience
+
+**AI/ML Intern — Automators Lab** *(May 2025 – Sep 2025)*
+- Built **multi-agent AI systems** with LangGraph & LangChain, integrating GPT, Claude, Gemini & LLaMA models
+- Developed **10+ custom Model Context Protocol (MCP) servers** connecting agents to APIs, databases & business apps
+- Engineered **RAG pipelines** for context-aware assistants and document-intelligence workflows
 
 ---
 
@@ -58,25 +63,22 @@ I build scalable systems - from AI automation platforms to real-time data pipeli
 
 | Metric | Result |
 |---|---|
-| Data pipeline efficiency | ↑ 40% |
-| Manual data collection eliminated | ↓ 90% |
-| Deployment time reduction | ↓ 50% |
-| Agent task execution efficiency | ↑ 35% |
-| DB retrieval latency reduction | ↓ 30% |
+| Codebase scale indexed (ContextCode) | up to **10,000 files** |
+| Automated test coverage (ContextCode) | **230+ tests** |
+| Custom MCP servers built (Automators Lab) | **10+** |
+| Data pipeline efficiency | ↑ **40%** |
+| Manual data collection eliminated | ↓ **90%** |
+| DB retrieval latency reduction | ↓ **30%** |
 
 ---
 
 ## 🌱 Currently Involved In
-
-- **Civic Tech Toronto** — Contributing to open-source civic applications; improving code quality via pull requests and Agile workflows
-- **AI Club @ York University** — Exploring ML concepts: neural networks, model evaluation, real-world AI system design
 - **CS Hub @ York** — Full-stack dev & cloud workshops, hackathons, peer collaboration
 
 ---
 
 ## 📬 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-devarsh-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/devarsh)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-devarsh-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/devarsh-prajapati-63a451275/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-devarsh.github.io-1D9E75?style=flat&logo=github)](https://devarsh.github.io)
 [![Email](https://img.shields.io/badge/Email-devarsh.sp13@gmail.com-EA4335?style=flat&logo=gmail)](mailto:devarsh.sp13@gmail.com)
 
