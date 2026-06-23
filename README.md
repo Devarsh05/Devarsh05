@@ -79,7 +79,7 @@ I build scalable systems — from AI agent platforms to real-time data pipelines
 
 ## 📬 Let's Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-devarsh-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/devarsh-prajapati-63a451275/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-devarsh.github.io-1D9E75?style=flat&logo=github)](https://devarsh.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-devarsh05.github.io-1D9E75?style=flat&logo=github)](https://devarsh05.github.io/)
 [![Email](https://img.shields.io/badge/Email-devarsh.sp13@gmail.com-EA4335?style=flat&logo=gmail)](mailto:devarsh.sp13@gmail.com)
 
 ---
